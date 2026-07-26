@@ -1,8 +1,25 @@
 aid: epocrates
 name: Epocrates
-description: 'Epocrates is a company surfaced as a portfolio company of threshold-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Epocrates is a mobile clinical reference application, part of athenahealth,
+  relied on by healthcare professionals for more than 25 years to support point-of-care
+  decisions. It provides a drug reference database, a drug-drug interaction checker,
+  a pill identifier, clinical practice guidelines, medical calculators, and a herbs
+  and supplements reference, with the premium epocrates+ subscription adding expanded
+  content. Epocrates does not publish a public developer API or SDK; this profile
+  captures the company''s public web identity and domain-security posture for the
+  API Evangelist network. Sector: healthcare.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/677fcc59828e8254194b675f/68514dba3d8045d448f62ced_icon.png
 url: https://raw.githubusercontent.com/api-evangelist/epocrates/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Medical Reference
+- Drug Database
+- Clinical Decision Support
+- Drug Interactions
+- Mobile App
+- athenahealth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: http://www.epocrates.com/
+- type: PrivacyPolicy
+  url: https://www.epocrates.com/discover/privacy-policy
+- type: TermsOfService
+  url: https://www.epocrates.com/discover/terms-of-use
+- type: Support
+  url: https://www.epocrates.com/online/feedback
+- type: HelpCenter
+  url: https://www.epocrates.com/discover/faq
+- type: DomainSecurity
+  url: security/epocrates-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
