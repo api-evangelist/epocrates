@@ -8,6 +8,17 @@ description: 'Epocrates is a mobile clinical reference application, part of athe
   content. Epocrates does not publish a public developer API or SDK; this profile
   captures the company''s public web identity and domain-security posture for the
   API Evangelist network. Sector: healthcare.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
